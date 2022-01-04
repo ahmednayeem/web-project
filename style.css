@@ -4,6 +4,11 @@ body{
 
 }
 
+.header{
+    background-color: blue;
+}
+
+
 h1{
     font-size: 50px;
 }
@@ -17,11 +22,9 @@ h1{
     margin-left: 40px;
 }
 
-
-
-
 section{
     display: flex;
+    margin-bottom:150px;
 }
 
 .half-width{
@@ -31,6 +34,7 @@ section{
 
 .half-width img{
     width:70%;
+    
     
 }
 
@@ -43,11 +47,18 @@ section{
     font-weight: bold;
     border-radius: 4px;
     transition:color 1s;
+    box-shadow:2px 5px 5px black ;
 
 }
 .link-button:hover{
     color:#0E0D0D;
     cursor: pointer;
     
+}
+
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
